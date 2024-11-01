@@ -1,0 +1,83 @@
+/* src/styles/index.css */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  color: #fff;
+}
+
+.form-container, .home-container {
+  background: #ffffff;
+  color: #333;
+  border-radius: 8px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.form-container h2, .home-container h1 {
+  margin-bottom: 1rem;
+  color: #1e3c72;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #1e3c72;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2a5298;
+}
+
+.logout-button {
+  background-color: #d9534f;
+}
+
+.logout-button:hover {
+  background-color: #c9302c;
+}
+
+/* src/styles/index.css */
+
+.redirect-text {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.redirect-text a {
+  color: #1e3c72;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.redirect-text a:hover {
+  text-decoration: underline;
+}
